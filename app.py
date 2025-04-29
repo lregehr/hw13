@@ -3,7 +3,7 @@ import os
 import logging
 import platform
 from flask import Flask, request, render_template, redirect, url_for
-from flask_paginate import Pagination, get_page_args
+from flask-paginate import Pagination, get_page_args
 from dotenv import load_dotenv
 import pymysql
 
